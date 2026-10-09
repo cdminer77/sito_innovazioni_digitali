@@ -1,16 +1,36 @@
-# React + Vite
+# Innovazioni Tecnologiche S.r.l.s. - Sito Web Ufficiale
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Sito web istituzionale di **Innovazioni Tecnologiche S.r.l.s.** realizzato con **React**, **Vite** e **Modern Vanilla CSS** (Dark Mode, Glassmorphism, animazioni SVG e responsive design).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Requisiti e Installazione
 
-## React Compiler
+Assicurati di avere installato [Node.js](https://nodejs.org/) (versione LTS raccomandata).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# Installa le dipendenze
+npm install
 
-## Expanding the Oxlint configuration
+# Avvia il server di sviluppo con hot reload
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# Compila la build di produzione
+npm run build
+
+# Esegui il linter
+npm run lint
+```
+
+In ambiente Windows puoi anche avviare comodamente il file batch `setup.bat`.
+
+---
+
+## 🛠️ Stack Tecnologico
+
+- **Framework / UI**: React 19
+- **Build Tool**: Vite 8
+- **Linter**: Oxlint
+- **Stile**: Vanilla CSS con Custom Properties (CSS Variables), CSS Grid, Flexbox e Glassmorphism
+- **Font**: Outfit & Inter (Google Fonts)
+- **Localizzazione**: Pisa, Italia
